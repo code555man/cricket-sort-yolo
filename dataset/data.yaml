@@ -1,6 +1,6 @@
-train: C:\Users\User\OneDrive\Documents\Work\yolov10\dataset\train\images
-val: C:\Users\User\OneDrive\Documents\Work\yolov10\dataset\valid\images
-test: C:\Users\User\OneDrive\Documents\Work\yolov10\dataset\train\images
+train: /content/cricket-sort-yolo/train/images
+val: /content/cricket-sort-yolo/val/images
+test: /content/cricket-sort-yolo/train/images
 
 nc: 2
 names: ['egg', 'no egg']
@@ -11,3 +11,5 @@ roboflow:
   version: 5
   license: CC BY 4.0
   url: https://universe.roboflow.com/milluki/xoat/dataset/5
+
+  /content/cricket-yolo/cricket-train/train/images
