@@ -1,0 +1,13 @@
+train: C:\Users\User\OneDrive\Documents\Work\yolov10\dataset\train\images
+val: C:\Users\User\OneDrive\Documents\Work\yolov10\dataset\valid\images
+test: C:\Users\User\OneDrive\Documents\Work\yolov10\dataset\train\images
+
+nc: 2
+names: ['egg', 'no egg']
+
+roboflow:
+  workspace: cricket
+  project: sort cricket
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/milluki/xoat/dataset/5
